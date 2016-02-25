@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{B4F1EDFB-130D-23D4-8EC3-C27D82B78F2B}</ProjectGuid>
+	<ProjectGuid>{2C88FD21-7967-A9D6-020A-59784BE3F7FA}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -46,12 +46,14 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Popup.cs" />
      <Compile Include="Assets\Scripts\RigidBody\MyBoxCollider.cs" />
      <Compile Include="Assets\Scripts\RigidBody\MyCollision.cs" />
      <Compile Include="Assets\Scripts\RigidBody\MyPlaneCollider.cs" />
      <Compile Include="Assets\Scripts\RigidBody\MyRigidBody.cs" />
      <Compile Include="Assets\Scripts\RigidBody\MySphereCollider.cs" />
      <Compile Include="Assets\Scripts\RigidBody\Temp.cs" />
+     <Compile Include="Assets\Scripts\UI\CreateNewObject.cs" />
      <Compile Include="Assets\Scripts\UI\ScrollableList.cs" />
      <Compile Include="Assets\Scripts\UI\SelectObject.cs" />
      <None Include="Assets\Shaders\SphereCollider.shader" />

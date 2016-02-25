@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 
 public enum RigidBodyType
 {
@@ -30,12 +31,14 @@ public class MyRigidBody : MonoBehaviour
 
     public float distanceToSurface; // the distance from the centre of the object to its surface e.g. for a sphere it's radius 
 
+    private SelectObject sel;
     private Matrix4x4 localI; // matrix representation of the inertia tensor
     private Vector3 globalL; // the angular momentum in world space
 
     // Use this for initialization
     protected void Start()
     {
+        sel = GameObject.Find("Engine").GetComponent<SelectObject>();
         // set the inverse mass
         inverseMass = 1 / mass;
 
@@ -65,6 +68,12 @@ public class MyRigidBody : MonoBehaviour
 
             // calculate rotation
             //UpdateRotation();           
+        }
+        // update the ui text for the text which changes
+        if(selected)
+        {
+            sel.stats.transform.GetChild(12).transform.GetChild(1).GetComponent<Text>().text = "x = " + linearVelocity.x + ", " + "y = " + linearVelocity.y + ", " + "z = " + linearVelocity.z;
+            sel.stats.transform.GetChild(13).transform.GetChild(1).GetComponent<Text>().text = "x = " + angularVelocity.x + ", " + "y = " + angularVelocity.y + ", " + "z = " + angularVelocity.z;
         }
     }
 
