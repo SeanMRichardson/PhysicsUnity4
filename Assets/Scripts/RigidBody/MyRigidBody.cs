@@ -437,17 +437,17 @@ public class MyRigidBody : MonoBehaviour
             collision.bodyB.angularMomentum += j * Vector3.Cross(rB, tangent);
 
             // get average coefficioent of friction in collision
-            float mu = (collision.bodyA.staticFriction + collision.bodyB.staticFriction) / 2;
+            //float mu = (collision.bodyA.staticFriction + collision.bodyB.staticFriction) / 2;
 
             // clamp magnitude of friction and create impulse vector
-            Vector3 frictionImpulse;
-            if (Mathf.Abs(jt) < j * mu)
-                frictionImpulse = jt * tangent;
-            else
-            {
-                var averageDynamicFriction = (collision.bodyA.dynamicFriction + collision.bodyB.dynamicFriction) / 2;
-                frictionImpulse = -j * tangent * averageDynamicFriction;
-            }
+            //Vector3 frictionImpulse;
+            //if (Mathf.Abs(jt) < j * mu)
+            //    frictionImpulse = jt * tangent;
+            //else
+            //{
+            //    var averageDynamicFriction = (collision.bodyA.dynamicFriction + collision.bodyB.dynamicFriction) / 2;
+            //    frictionImpulse = -j * tangent * averageDynamicFriction;
+            //}
 
             // apply the impulse
             //collision.bodyA.linearMomentum = collision.bodyA.inverseMass * frictionImpulse * Time.fixedDeltaTime;

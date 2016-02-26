@@ -7,7 +7,7 @@ public class MyPlaneCollider : MyRigidBody
     public float distance;
 
     // Use this for initialization
-    void Start()
+    new void Start()
     {
         base.Start();
     }

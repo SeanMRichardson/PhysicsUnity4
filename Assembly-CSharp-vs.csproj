@@ -46,7 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Popup.cs" />
      <Compile Include="Assets\Scripts\RigidBody\MyBoxCollider.cs" />
      <Compile Include="Assets\Scripts\RigidBody\MyCollision.cs" />
      <Compile Include="Assets\Scripts\RigidBody\MyPlaneCollider.cs" />

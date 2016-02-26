@@ -1,0 +1,12 @@
+E:\Users\sean\Documents\GitHub\PhysicsUnity4\Temp\bin\Debug\Assembly-CSharp.dll
+E:\Users\sean\Documents\GitHub\PhysicsUnity4\Temp\bin\Debug\Assembly-CSharp.pdb
+E:\Users\sean\Documents\GitHub\PhysicsUnity4\Temp\bin\Debug\UnityEditor.dll
+E:\Users\sean\Documents\GitHub\PhysicsUnity4\Temp\bin\Debug\UnityEngine.dll
+E:\Users\sean\Documents\GitHub\PhysicsUnity4\Temp\bin\Debug\UnityEngine.UI.dll
+E:\Users\sean\Documents\GitHub\PhysicsUnity4\Temp\bin\Debug\Mono.Cecil.dll
+E:\Users\sean\Documents\GitHub\PhysicsUnity4\Temp\bin\Debug\nunit.framework.dll
+E:\Users\sean\Documents\GitHub\PhysicsUnity4\Temp\bin\Debug\Unity.DataContract.dll
+E:\Users\sean\Documents\GitHub\PhysicsUnity4\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+E:\Users\sean\Documents\GitHub\PhysicsUnity4\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+E:\Users\sean\Documents\GitHub\PhysicsUnity4\obj\Debug\Assembly-CSharp.dll
+E:\Users\sean\Documents\GitHub\PhysicsUnity4\obj\Debug\Assembly-CSharp.pdb

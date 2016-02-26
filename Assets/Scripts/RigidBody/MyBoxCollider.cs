@@ -13,7 +13,7 @@ public class MyBoxCollider : MyRigidBody
 							};
 
 	// Use this for initialization
-	void Start()
+	new void Start()
 	{
 		base.Start();
 	}

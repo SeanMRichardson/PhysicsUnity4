@@ -7,7 +7,7 @@ public class MySphereCollider : MyRigidBody
 	public Vector3 centre;
 
 	private float tensorValue;
-	private Transform collider;
+	new private Transform collider;
 
 	void OnEnable()
 	{
@@ -24,7 +24,7 @@ public class MySphereCollider : MyRigidBody
 	}
 
 	// Use this for initialization
-	void Start () 
+	new void Start () 
 	{
 		for (int i = 0; i < transform.childCount; i++)
 		{
